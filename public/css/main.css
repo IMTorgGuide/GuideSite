@@ -1,0 +1,142 @@
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 44px;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+footer {
+  position: absolute;
+  height: 44px;
+  bottom: 0;
+  padding: 0 30px;
+}
+
+label {
+  display: block;
+  line-height: 1.8;
+}
+
+
+
+
+input[type="radio"] + label,
+input[type="checkbox"] + label {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+form button[type="submit"] {
+  margin-top: 1em;
+}
+
+.list-inline {
+  float: right;
+  padding-left: 0;
+  list-style: none;
+}
+
+.list-inline > li {
+  float: right;
+  padding: 0 5px;
+}
+.list-inline a{
+  text-decoration:none;
+  color:#696969;
+  font-size:100%
+}
+.list-inline a:visited{
+  text-decoration:none;
+  color:#696969
+}
+
+.list-align {
+  text-decoration:none;
+  color:#696969;
+}
+.list-align a{
+  text-decoration:none;
+  color:#696969;
+  font-size:100%
+}
+
+
+
+.container {
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.text-success {
+  color: #29b35b;
+}
+
+.text-danger {
+  color: #b61b17;
+}
+
+.text-info {
+  color: #31708f;
+}
+
+.avatar {
+  margin-right: 5px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  vertical-align: middle;
+}
+
+
+pre {
+  overflow-x:scroll;
+  
+  background-color: black;
+  color: white;
+  display: block;
+
+}
+
+
+blockquote {
+  font-size: 22px;
+  margin: 0;
+}
+
+blockquote p {
+  background-color: rgb(255, 255, 255);
+  border-radius: 6px;
+  font-family: Georgia, serif;
+  line-height: 1.4;
+  padding: 17px;
+}
+
+footer.author {
+  background-color: transparent;
+  font-weight: 500;
+  font-size: 22px;
+  line-height:22px;
+  margin: 24px 0 0 18px;
+}
+
+
+th, td {
+    padding: 5px;
+    border: 1px solid #999;
+}
+th {
+    background: #ccc;
+}
+tr:nth-child(odd) {
+    background: #eee;
+}
+td a {
+    color: #000;
+    text-decoration: underline;
+}
