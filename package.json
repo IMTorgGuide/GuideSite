@@ -1,0 +1,19 @@
+{
+  "name": "guide_site",
+  "version": "1.0.0",
+  "description": "Site directs and displays various guides",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IMTorgGuide/GuideSite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IMTorgGuide/GuideSite/issues"
+  },
+  "homepage": "https://github.com/IMTorgGuide/GuideSite#readme"
+}
