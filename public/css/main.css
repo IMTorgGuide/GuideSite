@@ -12,10 +12,11 @@ ul, ol {
 }
 
 footer {
+  text-align: center;
   position: absolute;
   height: 44px;
+  width: 100%;
   bottom: 0;
-  padding: 0 30px;
 }
 
 label {
@@ -23,6 +24,11 @@ label {
   line-height: 1.8;
 }
 
+div.wrapper img{
+  display: flex;
+  flex-flow: row nowrap;
+  max-width:100%;
+}
 
 
 

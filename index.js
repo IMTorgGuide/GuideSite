@@ -31,7 +31,7 @@ var hbs = exphbs.create({
 // MIDDLEWARE
 app.engine('handlebars', hbs.engine);
 app.set('view engine', 'handlebars');
-app.set('port', process.env.PORT || 3000);
+app.set('port', process.env.PORT || 3002);
 app.use(compression());
 app.use(favicon(path.join(__dirname,'public','images','faviconSS.ico')));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -40,7 +40,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 // ROUTES
-app.get('/', appController.index);          // guide.scrumsaga.com
+app.get('/', appController.index);          
+app.get('/intro/start', appController.start);          
+app.get('/intro/helloworld', appController.helloworld);          
+app.get('/fundamental/metricgroups', appController.metricgroups);          
+app.get('/fundamental/workflow', appController.workflow);          
+app.get('/fundamental/techniques', appController.techniques);          
+app.get('/fundamental/extensions', appController.extensions);          
 
 
 
