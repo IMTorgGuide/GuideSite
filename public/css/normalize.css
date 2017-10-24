@@ -237,11 +237,11 @@ sup {
 
 /**
  * Remove the border on images inside links in IE 10-.
- */
+ 
 
 img {
-    border-style: none;
-}
+  border-style: none;
+}*/
 
 
 /**
@@ -401,6 +401,9 @@ fieldset {
     border: 1px solid #c0c0c0;
     margin: 0 2px;
     padding: 0.35em 0.625em 0.75em;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
 }
 
 
@@ -433,20 +436,6 @@ legend {
 
 textarea {
     overflow: auto;
-}
-
-a {
-    text-decoration: none;
-    color: rgb(70, 62, 103);
-}
-
-td a {
-    color: #000;
-    text-decoration: underline;
-}
-
-ul a {
-    text-decoration: none;
 }
 
 
